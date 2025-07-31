@@ -1,8 +1,10 @@
 
 # WikiSim template simulation - typescript & preact
 
-## Dev
+## Getting Started
 
+    git clone git@github.com:wikisim/template-sim-typescript-preact-three.git your-new-sim-name --recursive
+    cd your-new-sim-name
     pnpm install
     pnpm run dev
 
