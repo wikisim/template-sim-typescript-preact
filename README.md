@@ -1,9 +1,11 @@
 
 # WikiSim template simulation - typescript & preact
 
+[![Compilation](https://github.com/wikisim/template-sim-typescript-preact/actions/workflows/run_tests.yaml/badge.svg)](https://github.com/wikisim/template-sim-typescript-preact/actions/workflows/run_tests.yaml)
+
 ## Getting Started
 
-    git clone git@github.com:wikisim/template-sim-typescript-preact-three.git your-new-sim-name --recursive
+    git clone git@github.com:wikisim/template-sim-typescript-preact.git your-new-sim-name --recursive
     cd your-new-sim-name
     pnpm install
     pnpm run dev
