@@ -6,6 +6,8 @@ import { IdAndVersion } from "core/data/id"
 import { DataComponent } from "core/data/interface"
 import { get_supabase } from "core/supabase/browser"
 
+import { asset_url } from "./utils/asset_url"
+
 
 export const DemoSim = () =>
 {
@@ -40,5 +42,11 @@ function Simulation(props: { data: DataComponent[] })
                 </div>
             ))}
         </ul>
+
+        <img
+            style={{ position: "absolute", top: 10, right: 10 }}
+            src={asset_url("./assets/logo.svg")}
+            title="This demos importing an asset using the asset_url function, which ensures the correct path is used in both development and production environments."
+        />
     </div>
 }
