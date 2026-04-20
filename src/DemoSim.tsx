@@ -45,7 +45,7 @@ function Simulation(props: { data: DataComponent[] })
 
         <img
             style={{ position: "absolute", top: 10, right: 10 }}
-            src={asset_url("./assets/logo.svg")}
+            src={asset_url("logo.svg")}
             title="This demos importing an asset using the asset_url function, which ensures the correct path is used in both development and production environments."
         />
     </div>
